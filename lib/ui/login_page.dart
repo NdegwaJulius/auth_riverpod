@@ -147,7 +147,8 @@ class _LoginPageState extends ConsumerState<LoginPage> {
                       ),
                       TextButton(
                         onPressed: () {
-                          // Navigate to Register page
+                          // navigate to register page
+                           Navigator.pushNamed(context, '/register');                           
                         },
                         child: const Text('Register'),
                       ),

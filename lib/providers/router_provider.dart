@@ -53,5 +53,11 @@ class RouterNotifier extends ChangeNotifier {
         child: HomePage(),
       ),
     ),
+    GoRoute(
+      path: '/register',
+      pageBuilder: (context, state) => const MaterialPage(
+        child: LoginPage(title: 'Register'),
+      ),  
+    )
   ];
 }
